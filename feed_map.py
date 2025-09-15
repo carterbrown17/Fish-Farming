@@ -123,7 +123,7 @@ with tab1:
     }
 
     r = pdk.Deck(
-        map_style="mapbox://styles/mapbox/light-v9",
+        map_style="https://basemaps.cartocdn.com/gl/positron-gl-style/style.json",
         initial_view_state=view_state,
         layers=[layer, flow_layer],
         tooltip=tooltip
